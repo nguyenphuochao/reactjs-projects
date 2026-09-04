@@ -1,0 +1,48 @@
+body {
+    background: #ECEAFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 550px;
+    height: 320px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+              url('../assets/background.png') no-repeat center center / cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stop-watch h1 {
+    display: flex;
+    gap: 14px;
+    text-align: center;
+    color: #FFF;
+    font-size: 46px;
+}
+
+.actions {
+    margin-top: 40px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.actions img {
+    cursor: pointer;
+}
+
+.actions img:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 599px){
+    .container {
+        width: 300px;
+    }
+}
