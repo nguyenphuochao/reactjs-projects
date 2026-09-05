@@ -1,0 +1,54 @@
+:root {
+  --success-color: rgb(14 240 14);
+  --warning-color: rgb(238, 194, 19);
+  --danger-color: red;
+}
+
+body {
+  background: #1F1F22;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+}
+
+input {
+  height: 42px;
+  width: 300px;
+  background: #1F1F22;
+  border: 1px solid #FFF;
+  color: #FFF;
+  padding: 10px 45px 10px 10px;
+  outline: none;
+}
+
+.weak {
+  border-color: var(--danger-color);
+  color: var(--danger-color);
+}
+
+.medium {
+  border-color: var(--danger-color);
+  color: var(--danger-color);
+}
+
+.strong {
+  border-color: var(--success-color);
+  color: var(--success-color);
+}
+
+.icon {
+  width: 25px;
+  position: absolute;
+  right: 15px;
+  top: 7px;
+  cursor: pointer;
+}
+
+.error {
+  margin-top: 15px;
+}
